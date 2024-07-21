@@ -3,3 +3,4 @@
 dist/
 */to_add_to_jira.md
 node_modules/
+*/.DS_Store
