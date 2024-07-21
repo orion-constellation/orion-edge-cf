@@ -1,0 +1,7 @@
+name: orion-threat-ai
+runtime: nodejs
+description: A TS Program to deploy a site on CF
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://github.com/pulumi/tutorials/tree/cloudflare-typescript-add-site-end

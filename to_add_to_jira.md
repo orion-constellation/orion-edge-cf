@@ -1,0 +1,5 @@
+- Base Cloudflare configuration
+- Configure Serverless DB on Cloudflare
+- https://developers.cloudflare.com/pages/functions/wrangler-configuration#environment-specific-overrides (Different envs)
+- Configure secrets
+- Workers for platforms
