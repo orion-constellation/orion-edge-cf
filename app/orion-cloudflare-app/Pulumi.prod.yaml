@@ -1,0 +1,7 @@
+name: rest-api-cf
+runtime: nodejs
+description: restapi-cf-ts
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript

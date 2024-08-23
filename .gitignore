@@ -1,0 +1,7 @@
+**/node_modules/
+**/*.env
+**/dist/
+*/to_add_to_jira.md
+node_modules/
+*.env
+*/.DS_Store

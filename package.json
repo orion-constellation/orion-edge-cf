@@ -1,0 +1,22 @@
+{
+  "name": "orion-cloudflare",
+  "version": "1.0.0",
+  "description": "Cloudflare deployment of Orion",
+  "main": "index.js",
+  "author": "orionhunts-ai <orion@oriondefensiveai.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240718.0",
+    "@cloudflare/wrangler": "^1.21.0"
+  },
+  "workspaces": [
+    "orion-threat-cloudflare",
+    "orion-portkey"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.3"
+  }
+}
